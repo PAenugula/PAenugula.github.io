@@ -10,6 +10,11 @@ function randomize() {
   animateGenetically("PHANIRAJ AENUGULA", header);
 }
 
+function generalRandom() {
+  var val = this.innerHTML;
+  animateGenetically(val, this);
+}
+
 
 async function animateGenetically(value, pointer) {
   var ranName = getRandomName(value.length);

@@ -1,24 +1,43 @@
 
-
+#name{
+	padding-top: 50px;
+	color: #224469;
+	font-weight: 500;
+}
 .background{
+	background-image: linear-gradient(#00357a, #fff);
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
 	height:100%;
 	width:100%;
 }
-.jumbotron{
-	font: "#d8e0bb";
-}
 
 .title{
 	font-family: monospace;
 	font-size: 60px;
 	text-align: center;
+	padding-top: 50px;
+}
+
+.card-text{
+	font-family: sans-serif;
 }
 
 .content {
-	background-color: "#d8e0bb";
+	background-color: #fff;
+	height: 150px;
+	margin: auto;
+	padding: auto;
+}
+
+.myNavBar{
+	background-color: #86a3c3;
+	background-image: linear-gradient(#659bd4, #659bd4);
+}
+.navbarNav{
+	padding: auto;
+	text-align: center;
 }
 
 .jumbotron{
