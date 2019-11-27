@@ -1,0 +1,26 @@
+
+
+.background{
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	height:100%;
+	width:100%;
+}
+.jumbotron{
+	font: "#d8e0bb";
+}
+
+.title{
+	font-family: monospace;
+	font-size: 60px;
+	text-align: center;
+}
+
+.content {
+	background-color: "#d8e0bb";
+}
+
+.jumbotron{
+	font: "#d8e0bb";
+}
