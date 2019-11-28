@@ -40,17 +40,17 @@ function sleep(ms) {
 
 
 function getRandomName(length) {
-  var asciiVals = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ."
+  var asciiVals = "ABCDEFGHIJKLMNOPQRSTUVWXYZ ."
   var name = "";
   for(var i = 0; i < length; i++) {
-    name = name + asciiVals[getRandomInt(54)];
+    name = name + asciiVals[getRandomInt(28)];
   }
   return name;
 }
 
 function mutate(value) {
-  var asciiVals = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz .";
-  var test = asciiVals[getRandomInt(54)];
+  var asciiVals = "ABCDEFGHIJKLMNOPQRSTUVWXYZ .";
+  var test = asciiVals[getRandomInt(28)];
   var nValue = value;
   var ind = getRandomInt(value.length);
   nValue[ind] = test;

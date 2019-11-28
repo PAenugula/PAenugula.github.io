@@ -1,7 +1,7 @@
 
 #name{
 	padding-top: 20px;
-	color: #224469;
+	color: #0070ff;
 	font-weight: 500;
 }
 .background{
@@ -19,14 +19,14 @@
 }
 
 .title{
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Abel', sans-serif;
 	font-size: 60px;
 	text-align: center;
 	padding-top: 50px;
 }
 
 .card-text{
-	font-family: 'Rubik', sans-serif;
+	font-family: 'Exo 2', sans-serif;
 	color: #224469;
 	
 }
@@ -39,14 +39,13 @@
 }
 
 .myNavBar{
-	background-color: #86a3c3;
-	background-image: linear-gradient(#659bd4, #659bd4);
 	font-size: 20px;
 	color: white;
 }
 .navbarNav{
 	padding: auto;
 	text-align: center;
+	color: white;
 	font-family: 'Roboto', sans-serif;
 }
 
