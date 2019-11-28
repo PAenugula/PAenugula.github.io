@@ -1,32 +1,39 @@
 
 #name{
-	padding-top: 50px;
+	padding-top: 20px;
 	color: #224469;
 	font-weight: 500;
 }
 .background{
-	background-image: linear-gradient(#00357a, #fff);
+	background-image: linear-gradient(#ffffff, #fff);
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
 	height:100%;
 	width:100%;
 }
+.aboutMe{
+	background-color: #ffffff;
+	border-width: 0ch;
+	margin-bottom: 0px;
+}
 
 .title{
-	font-family: monospace;
+	font-family: 'Rubik', sans-serif;
 	font-size: 60px;
 	text-align: center;
 	padding-top: 50px;
 }
 
 .card-text{
-	font-family: sans-serif;
+	font-family: 'Rubik', sans-serif;
+	color: #224469;
+	
 }
 
 .content {
 	background-color: #fff;
-	height: 150px;
+	height: 100px;
 	margin: auto;
 	padding: auto;
 }
@@ -34,11 +41,19 @@
 .myNavBar{
 	background-color: #86a3c3;
 	background-image: linear-gradient(#659bd4, #659bd4);
+	font-size: 20px;
+	color: white;
 }
 .navbarNav{
 	padding: auto;
 	text-align: center;
+	font-family: 'Roboto', sans-serif;
 }
+
+.nav-link{
+	font-family: 'Monteserrat', sans-serif;
+}
+
 
 .jumbotron{
 	font: "#d8e0bb";
