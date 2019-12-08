@@ -4,6 +4,17 @@
 	color: #0070ff;
 	font-weight: 500;
 }
+
+#profilePic{
+	border-radius: 200px;
+}
+
+h2 {
+	color:#0070ff;
+	font-size: 50px;
+}
+
+
 .background{
 	background-image: linear-gradient(#ffffff, #fff);
 	background-position:center;
@@ -16,6 +27,7 @@
 	background-color: #ffffff;
 	border-width: 0ch;
 	margin-bottom: 0px;
+	text-align: left;
 }
 
 .title{
