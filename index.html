@@ -6,14 +6,13 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Abel|Exo+2|Mukta|Questrial&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="assets/master.css">
-		<script src="assets/particles.js"></script>
 		<script src="assets/app.js"></script>
 		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
 	</head>
-	<body id="particles-js" class = "background">
-		<div class="particles-js">
+	<body class = "background">
+		
 
 		<div class="content">
 			<h1 onmouseover="randomize(this)" class="title container" id="name">PHANIRAJ AENUGULA</h1>
@@ -27,7 +26,7 @@
 					<a class="nav-item nav-link active" href="#aboutMe">About Me <span class="sr-only">(current)</span></a>
 					<a class="nav-item nav-link" href="#Projects">Projects</a>
 					<a class="nav-item nav-link" href="#Experience">Experience</a>
-					<a class="nav-item nav-link" href="#">More</a>
+					<a class="nav-item nav-link" href="#More">More</a>
 				  </div>
 				</div>
 			  </nav>
@@ -39,7 +38,8 @@
 					</div>
 				  <div class="col-md-8">
 					<div class="card-body text-primary">
-						<h2>ABOUT ME</h2>
+						<h2 class="title">ABOUT ME</h2>
+						<hr>
 					  <p class="card-text">My name is Phaniraj Aenugula, but most people call me Phani. I am a second year computer science major at Cal Poly, San Luis Obispo. I am also pursuing a minor in mathematics because of my interest in pure math and the satisfying descriptions and explantions it can provide in
 				computer science and nature in general. Over the past years, I've made projects simply to explore
 			the things I've learned and further apply it to practical problems to create real-world impact.</p>
@@ -49,70 +49,148 @@
 			  </div>
 
 
-		<h2 id="Projects" style="text-align: center;padding-bottom: 20px;">PROJECTS</h2>
+		<h2 id="Projects" style="text-align: center;padding-bottom: 0px;" class="title">PROJECTS</h2>
+		<hr>
+<div class="projs jumbotron container">
+<div id="carouselExampleCaptions" class="carousel slide carr" data-ride="carousel">
+ 
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    	<a href="https://github.com/PAenugula/Stock-Betr-MVP">
+
+      <img src="images/profback.jpg" class="cardImg d-block" alt="...">
+    	</a>
+
+
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+        <div class="projDesc" >
+        	
+        <h5 class="card1">Stock Betr</h5>
+        <p>As part of a project for Blockchain at Calpoly, we created a betting website using cryptocurrency. It was built on the Ethereum blockchain using the Web3js framework and solidity contracts.</p>
+
+        </div>
+    </div>
+    <div class="carousel-item">
+    	<a href="https://github.com/TamirOffen/OddJob">
+    		
+      <img src="images/stepping oddjob graphic.jpg" class="card-img-top cardImg" class="d-block" alt="...">
+    	</a>
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+        <div class="projDesc">        	
+
+        <h5 class="card2">Oddjob</h5>
+        <p>One of my first projects, Oddjob was an "Uber for chores". It allowed users to post their household tasks that they don't have time for or can't do themselves on a map. Other users can pick up the job. The app implemented a dynamic map user interface with a custom in-app messaging system.</p>
+
+        </div>
+    </div>
+    <div class="carousel-item">
+
+    	<a href="https://github.com/LocoNote/LocoNote-MVP">
+    	
+      <img src="images/loconoteblue2.png" class="cardImg d-block" alt="...">
+    	</a>
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+      	<div class="projDesc">
+        <h5 class="card3">Loconote</h5>
+      		
+        <p>A product of my first hackathon, SBhacks, Loconote is a simple yet fun app that lets users post their emotions along with a note on the map. Other users can see what people think around them by seeing the posts within a certain radius.</p>
+      	</div>
+    </div>
+    <div class="carousel-item">
+    	<a href="https://github.com/spotif-ai/spotifai-functional">
+    		
+
+      <img src="images/spotifai.jpg" class="cardImg d-block" alt="...">
+    	</a>
+      <div class="carousel-caption d-none d-md-block">
+      </div>
+      	<div class="projDesc">
+        <h5 class="card4">Spotif.AI</h5>
+        <p>My team and I at SLOHacks created an app that finds the right song for you. Using Google's computer vision and machine learning API, we evaluate your current mood using a selfie and direct you to a song that brightens your day.</p>
+      	</div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+
 		
-		<div class="container">
-			<div class="row row-cols-1 row-cols-md-2 container">
-			  <div class="col mb-4">
-			    <div class="card">
-			    	<a href="https://github.com/TamirOffen/OddJob">
-			    		<img src="images/stepping oddjob graphic.jpg" class="card-img-top" alt="...">
-			    	</a>
-			      <div class="card-body">
-			        <h5 class="card-title">Oddjob</h5>
-			        <p class="card-text">One of my first projects, Oddjob was an "Uber for chores". It allowed users to post their household tasks that they don't have time for or can't do themselves on a map. Other users can pick up the job. The app implemented a dynamic map user interface with a custom in-app messaging system.</p>
-			      </div>
-			    </div>
-			  </div>
-			  <div class="col mb-4">
-			    <div class="card">
-			    	<a href="https://github.com/PAenugula/Stock-Betr-MVP">
-			    		<img src="images/profback.jpg" class="card-img-top" alt="...">
-			    	</a>
-			     
-			      <div class="card-body">
-			        <h5 class="card-title">Stock Betr</h5>
-			        <p class="card-text">As part of a project for Blockchain at Calpoly, we created a betting website using cryptocurrency. It was built on the Ethereum blockchain using the Web3js framework and solidity contracts.</p>
-			      </div>
-			    </div>
-			  </div>
-			  <div class="col mb-4">
-			    <div class="card">
-			    	<a href="https://github.com/LocoNote/LocoNote-MVP">
-			    	<img src="images/loconoteblue.png" class="card-img-top" alt="...">			    		
-			    	</a>
 
-			      <div class="card-body">
-			        <h5 class="card-title">Loconote</h5>
-			        <p class="card-text">A product of my first hackathon, SBhacks, Loconote is a simple yet fun app that lets users post their emotions along with a note on the map. Other users can see what people think around them by seeing the posts within a certain radius.</p>
-			      </div>
-			    </div>
-			  </div>
-			  <div class="col mb-4">
-			    <div class="card">
-			    	<a href="https://github.com/spotif-ai/spotifai-functional">
-			    		<img src="images/spotifai.jpg" class="card-img-top" alt="...">
-			    	</a>
-			   
-			      <div class="card-body">
-			        <h5 class="card-title">Spotifai</h5>
-			        <p class="card-text">My team and I at SLOHacks created an app that finds the right song for you. Using Google's computer vision and machine learning API, we evaluate your current mood using a selfie and direct you to a song that brightens your day.</p>
-			      </div>
-			    </div>
-			  </div>
-			</div>
-		</div>
-
-		<h2 id="Experience" style="text-align: center;padding-bottom: 20px; ">EXPERIENCE</h2>
-
+		<h2 id="Experience" style="text-align: center;padding-bottom: 20px; " class="title">EXPERIENCE</h2>
+		<hr>
 		<div class="card container" style="width: 26rem;">
-  <img src="images/amazon.png" class="card-img-top" alt="...">
+  <img id="amazon" src="images/amazon.png" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Junior Software Developer</h5>
-    <p class="card-text">I am extremely fortunate to have an year round intership with Amazon.com. I got to work directly with other full-time engineers and develop the backend systems for many Amazon services like Alexa, Kindle, and Merch.</p>
+    <p class="card-text">I am extremely fortunate to have an year round intership with Amazon.com. I get to work directly with other full-time engineers and develop the backend systems for many Amazon services like Alexa, Kindle, and Merch.</p>
   </div>
 </div>
 
+
+
+	<h2 id="More" style="text-align: center; margin-top: 30px;" class="title">Want More!</h2>
+			<hr>
+<div class="">
+
+
+
+	<div class="container">
+			  <div class="row ">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+      	<img class="morePic" src="images/integrations-github-logo.png">
+        <h5 class="card-title"></h5>
+        <p class="card-text">My github portfolio contains most of the code for my projects. It is constantly updated with my new code commits on projects.</p>
+        <a href="https://github.com/PAenugula" class="btn btn-primary">Go to Github!</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+      	<img class="morePic" src="images/linkedin-logo-vector.png">
+        <h5 class="card-title"></h5>
+        <p class="card-text">My Linkedin profile contains more info about my background and current status.</p>
+        <a href="https://www.linkedin.com/in/phaniraj-aenugula/" class="btn btn-primary">Go to Linkedin!</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+      	<img class="morePic" src="images/medium-logo.png">
+        <h5 class="card-title"></h5>
+        <p class="card-text">My medium profile links you to my new ongoing blog as well as articles I've bookmarked.</p>
+        <a href="https://medium.com/@phanirajaenugula" class="btn btn-primary">Go to Medium!</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+      	<img class="morePic" src="images/mail-logo.jpg">
+        <h5 class="card-title"></h5>
+        <p class="card-text">To learn more about me, get a hold of my resume, or even just to talk to me, please contact me by email here.</p>
+        <a href="mailto: paenugul@calpoly.edu" class="btn btn-primary">Contact Me!</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+			  </div>
+			</div>
 
 <div style="padding: 50px"></div>
 
@@ -127,7 +205,6 @@
 			  </p>
 			  <img src="Snapchat-738603770.jpg" class="card-img" alt="...">
 			</div> -->
-		  </div>
 		<script src="assets/geneticAlgo.js" charset="utf-8"></script>
 	</div>
 	</body>
